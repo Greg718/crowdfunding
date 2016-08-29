@@ -12,8 +12,23 @@
 <body >
 
 <header>
-	<img src="media/favicon.png" alt="Icone feu" />
-	<h1>Greelight</h1>
+    <h1>
+        <img src="media/favicon.png" alt="Icone feu" />
+	Greelight
+    </h1>
+    
+    <form method="post" action="index.php"> 
+        
+        <label for="login"> Votre identifiant </label> :      
+        <input type="text" name="login" id="login" placeholder="defaut" /> 
+        
+        <br /> 
+        
+        <label for="password"> Votre mot de passe </label> :     
+        <input type="password" name="password" id="password" /> 
+        
+        <input type="submit" value="Envoyer"> 
+    </form>  
 
 </header>
 
