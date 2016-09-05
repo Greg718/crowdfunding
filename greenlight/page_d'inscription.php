@@ -5,15 +5,68 @@
 	<meta name="keywords" content="projet, crowdfunding, calédonie, université" />
 	<meta name="description" content="Greenlight" />
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<!--	<link rel="stylesheet" href="style.css" /> -->
+	<link rel="stylesheet" href="style.css" />
 </head>
 
 <body >
 
-<header>
+    <header>
 	<h1>Greenlight</h1>
+        
+        <h2>INSCRIPTION</h2>
 
-</header>
+    </header>
+    
+    <form method="post" action="hello.php"> 
+        
+        	<label for="login"></label>     
+        	<input type="text" name="login" id="login" placeholder="Login" /> 
+                
+                </br> </br>
+                
+        	<label for="password"></label> 
+                <input type="password" name="password" id="password" placeholder="PassWord"/>
+                
+                </br> </br>
+                
+                <label for="email"><label>
+                <input type="email" name="email" id="email" placeholder="Email"/>
+                
+                </br> </br>
+                
+                <label for="adresse"><label>
+                <input type="adresse" name="adresse" id="adresse" placeholder="Adresse"/>
+        
+                </br> </br>
+                
+                <label for="Téléphone"><label>
+                <input type="Téléphone" name="Téléphone" id="Téléphone" placeholder="Téléphone"/>
+                
+                </br> </br>
+                
+                <label for="Site Web"><label>
+                <input type="Site Web" name="Site Web" id="Site Web" placeholder="Site Web"/>
+                
+                </br> </br>
+                
+                <label for="Nom Association"><label>
+                <input type="Nom Association" name="Nom Association" id="Nom Association" placeholder="Nom Association"/>
+                
+                </br> </br>
+                
+                <label for="BankAccount"><label>
+                <input type="BankAccount" name="BankAccount" id="BankAccount" placeholder="BankAccount"/>
+                
+                </br> </br>
+        	
+                <input type="submit" value="Inscription"> 
+        	
+        	
+    	</form>
+    
+    <footer>
+        
+    </footer>
 
 </body>
 
